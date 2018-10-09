@@ -9,8 +9,6 @@ exports.sub = function (x, y) {
 }
 
 exports.sumOfPositiveNumbers = function (upperLimitInclusive) {
-    // ToDo: Add the necessary code to calculate the sum of all positive
-    //       numbers lower equal the specified upper limit.
     let sum = 0;
 
     for (let i = 1; i <= upperLimitInclusive; i++) {
